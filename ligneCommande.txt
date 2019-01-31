@@ -1,0 +1,358 @@
+
+stagiaire@CAANAUG401PC05 MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+'Creative Cloud Files'/
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+'Menu Démarrer'@
+'Mes documents'@
+ MicrosoftEdgeBackups/
+ Modèles@
+ Music/
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{00986afd-7dfd-11e8-a303-b7ba5b2d1fad}.TM.blf
+ NTUSER.DAT{00986afd-7dfd-11e8-a303-b7ba5b2d1fad}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{00986afd-7dfd-11e8-a303-b7ba5b2d1fad}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ Pictures/
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Videos/
+"Voisinage d'impression"@
+'Voisinage réseau'@
+
+stagiaire@CAANAUG401PC05 MINGW64 ~
+$ cd ..
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/Users
+$ cd ..
+
+stagiaire@CAANAUG401PC05 MINGW64 /c
+$ cd
+
+stagiaire@CAANAUG401PC05 MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+'Creative Cloud Files'/
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+'Menu Démarrer'@
+'Mes documents'@
+ MicrosoftEdgeBackups/
+ Modèles@
+ Music/
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{00986afd-7dfd-11e8-a303-b7ba5b2d1fad}.TM.blf
+ NTUSER.DAT{00986afd-7dfd-11e8-a303-b7ba5b2d1fad}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{00986afd-7dfd-11e8-a303-b7ba5b2d1fad}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ Pictures/
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Videos/
+"Voisinage d'impression"@
+'Voisinage réseau'@
+
+stagiaire@CAANAUG401PC05 MINGW64 ~
+$ cd ..
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/Users
+$ cd ..
+
+stagiaire@CAANAUG401PC05 MINGW64 /c
+$ ls
+'$Recycle.Bin'/             FontTest/               Recovery/
+ 0EB1AE58E24B               hiberfil.sys            swapfile.sys
+ bootmgr                    MSOCache/              'System Volume Information'/
+ BOOTNXT                    pagefile.sys            Users/
+ CIEL/                      PerfLogs/               UwAmp/
+'Documents and Settings'@  'Program Files'/         wamp64/
+'Données Ciel'/            'Program Files (x86)'/   Windows/
+ Drivers/                   ProgramData/
+
+stagiaire@CAANAUG401PC05 MINGW64 /c
+$ cd uwamp
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp
+$ cd www
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www
+$ mkdir monProjetGit
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www
+$ cd monProjetGit
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        git-cheat-sheet-large.png
+        index.php
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+$ git add .
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   git-cheat-sheet-large.png
+        new file:   index.php
+
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+$ git commit -m initialisation
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'stagiaire@CAANAUG401PC05.(none)')
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+$ git config --global user.email "galaxy.teos.50@gmail.com"
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+$ git config --global user.name "myriamel"
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   git-cheat-sheet-large.png
+        new file:   index.php
+
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+$ git commit -m "initialisation"
+[master (root-commit) 78e95d2] initialisation
+ 2 files changed, 5 insertions(+)
+ create mode 100644 git-cheat-sheet-large.png
+ create mode 100644 index.php
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        readme.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+$ git diff
+diff --git a/index.php b/index.php
+index 7b42e35..94879b5 100644
+--- a/index.php
++++ b/index.php
+@@ -1,5 +1,6 @@
+ <?php
+
++// commentaire
+ echo "Hello World";
+
+  ?>
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+$ git add readme.txt
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   readme.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.php
+
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+$ git diff
+diff --git a/index.php b/index.php
+index 7b42e35..94879b5 100644
+--- a/index.php
++++ b/index.php
+@@ -1,5 +1,6 @@
+ <?php
+
++// commentaire
+ echo "Hello World";
+
+  ?>
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+$ git commit -m "j avais oublié readme"
+[master 4dc5e04] j avais oublié readme
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 readme.txt
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+$ git log
+commit 4dc5e047e5f089b7bf55520dc5a37340744b4eee (HEAD -> master)
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 09:52:25 2019 +0100
+
+    j avais oublié readme
+
+commit 78e95d27b94ecc6ca65722590d91ab6348eb249c
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 09:47:27 2019 +0100
+
+    initialisation
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+$ git remote
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+$ git remote -v
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+$ git remote add origin https://github.com/myriamel/projet.git
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+$ git remote -v
+origin  https://github.com/myriamel/projet.git (fetch)
+origin  https://github.com/myriamel/projet.git (push)
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+$ git push --set upstream origin master
+error: src refspec origin does not match any.
+error: failed to push some refs to 'upstream'
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+$ git push -u origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 1.14 MiB | 97.00 KiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/myriamel/projet.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.php
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+$ git add index.php
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+$ git commit -m "commentaire"
+[master 277515e] commentaire
+ 1 file changed, 1 insertion(+)
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 372 bytes | 372.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/myriamel/projet.git
+   4dc5e04..277515e  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+$ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/myriamel/projet
+   277515e..65e0b89  master     -> origin/master
+Updating 277515e..65e0b89
+Fast-forward
+ index.php | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+$
