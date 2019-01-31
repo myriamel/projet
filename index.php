@@ -6,4 +6,6 @@ echo "Hello World";
 // commentaire atom
 
 echo "je modifie en local sur la branche windows";
+
+// creer un conflit a partir du local
  ?>
