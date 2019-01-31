@@ -22,8 +22,8 @@ $ ls
  ntuser.dat.LOG1
  ntuser.dat.LOG2
  NTUSER.DAT{00986afd-7dfd-11e8-a303-b7ba5b2d1fad}.TM.blf
- NTUSER.DAT{00986afd-7dfd-11e8-a303-b7ba5b2d1fad}.TMContainer00000000000000000001.regtrans-ms
- NTUSER.DAT{00986afd-7dfd-11e8-a303-b7ba5b2d1fad}.TMContainer00000000000000000002.regtrans-ms
+ NTUSER.DAT{00986afd-7dfd-11e8-a303-b7ba5b2d1fad}.TMCont1.regtrans-ms
+ NTUSER.DAT{00986afd-7dfd-11e8-a303-b7ba5b2d1fad}.TMCont2.regtrans-ms
  ntuser.ini
  OneDrive/
  Pictures/
@@ -67,8 +67,8 @@ $ ls
  ntuser.dat.LOG1
  ntuser.dat.LOG2
  NTUSER.DAT{00986afd-7dfd-11e8-a303-b7ba5b2d1fad}.TM.blf
- NTUSER.DAT{00986afd-7dfd-11e8-a303-b7ba5b2d1fad}.TMContainer00000000000000000001.regtrans-ms
- NTUSER.DAT{00986afd-7dfd-11e8-a303-b7ba5b2d1fad}.TMContainer00000000000000000002.regtrans-ms
+ NTUSER.DAT{00986afd-7dfd-11e8-a303-b7ba5b2d1fad}.TMCont1.regtrans-ms
+ NTUSER.DAT{00986afd-7dfd-11e8-a303-b7ba5b2d1fad}.TMCont2.regtrans-ms
  ntuser.ini
  OneDrive/
  Pictures/
@@ -88,13 +88,13 @@ $ cd ..
 
 stagiaire@CAANAUG401PC05 MINGW64 /c
 $ ls
-'$Recycle.Bin'/             FontTest/               Recovery/
- 0EB1AE58E24B               hiberfil.sys            swapfile.sys
- bootmgr                    MSOCache/              'System Volume Information'/
- BOOTNXT                    pagefile.sys            Users/
- CIEL/                      PerfLogs/               UwAmp/
-'Documents and Settings'@  'Program Files'/         wamp64/
-'Données Ciel'/            'Program Files (x86)'/   Windows/
+'$Recycle.Bin'/             FontTest/               Reco
+ 0EB1AE58E24B               hiberfil.sys            swap
+ bootmgr                    MSOCache/              'Syst
+ BOOTNXT                    pagefile.sys            User
+ CIEL/                      PerfLogs/               UwAm
+'Documents and Settings'@  'Program Files'/         wamp
+'Données Ciel'/            'Program Files (x86)'/   Wind
  Drivers/                   ProgramData/
 
 stagiaire@CAANAUG401PC05 MINGW64 /c
@@ -109,24 +109,24 @@ $ mkdir monProjetGit
 stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www
 $ cd monProjetGit
 
-stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
 $ git status
 On branch master
 
 No commits yet
 
 Untracked files:
-  (use "git add <file>..." to include in what will be committed)
+  (use "git add <file>..." to include in what will be co
 
         git-cheat-sheet-large.png
         index.php
 
-nothing added to commit but untracked files present (use "git add" to track)
+nothing added to commit but untracked files present (use
 
-stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
 $ git add .
 
-stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
 $ git status
 On branch master
 
@@ -139,7 +139,7 @@ Changes to be committed:
         new file:   index.php
 
 
-stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
 $ git commit -m initialisation
 
 *** Please tell me who you are.
@@ -150,17 +150,17 @@ Run
   git config --global user.name "Your Name"
 
 to set your account's default identity.
-Omit --global to set the identity only in this repository.
+Omit --global to set the identity only in this repositor
 
-fatal: unable to auto-detect email address (got 'stagiaire@CAANAUG401PC05.(none)')
+fatal: unable to auto-detect email address (got 'stagiai')
 
-stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
-$ git config --global user.email "galaxy.teos.50@gmail.com"
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git config --global user.email "galaxy.teos.50@gmail.c
 
-stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
 $ git config --global user.name "myriamel"
 
-stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
 $ git status
 On branch master
 
@@ -173,35 +173,35 @@ Changes to be committed:
         new file:   index.php
 
 
-stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
 $ git commit -m "initialisation"
 [master (root-commit) 78e95d2] initialisation
  2 files changed, 5 insertions(+)
  create mode 100644 git-cheat-sheet-large.png
  create mode 100644 index.php
 
-stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
 $ git status
 On branch master
 nothing to commit, working tree clean
 
-stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
 $ git status
 On branch master
 Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
+  (use "git add <file>..." to update what will be commit
+  (use "git checkout -- <file>..." to discard changes in
 
         modified:   index.php
 
 Untracked files:
-  (use "git add <file>..." to include in what will be committed)
+  (use "git add <file>..." to include in what will be co
 
         readme.txt
 
-no changes added to commit (use "git add" and/or "git commit -a")
+no changes added to commit (use "git add" and/or "git co
 
-stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
 $ git diff
 diff --git a/index.php b/index.php
 index 7b42e35..94879b5 100644
@@ -215,10 +215,10 @@ index 7b42e35..94879b5 100644
 
   ?>
 
-stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
 $ git add readme.txt
 
-stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
 $ git status
 On branch master
 Changes to be committed:
@@ -227,13 +227,13 @@ Changes to be committed:
         new file:   readme.txt
 
 Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
+  (use "git add <file>..." to update what will be commit
+  (use "git checkout -- <file>..." to discard changes in
 
         modified:   index.php
 
 
-stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
 $ git diff
 diff --git a/index.php b/index.php
 index 7b42e35..94879b5 100644
@@ -247,15 +247,15 @@ index 7b42e35..94879b5 100644
 
   ?>
 
-stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
 $ git commit -m "j avais oublié readme"
 [master 4dc5e04] j avais oublié readme
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 readme.txt
 
-stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
 $ git log
-commit 4dc5e047e5f089b7bf55520dc5a37340744b4eee (HEAD -> master)
+commit 4dc5e047e5f089b7bf55520dc5a37340744b4eee (HEAD ->
 Author: myriamel <galaxy.teos.50@gmail.com>
 Date:   Thu Jan 31 09:52:25 2019 +0100
 
@@ -267,60 +267,60 @@ Date:   Thu Jan 31 09:47:27 2019 +0100
 
     initialisation
 
-stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
 $ git remote
 
-stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
 $ git remote -v
 
-stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
-$ git remote add origin https://github.com/myriamel/projet.git
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git remote add origin https://github.com/myriamel/proj
 
-stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
 $ git remote -v
 origin  https://github.com/myriamel/projet.git (fetch)
 origin  https://github.com/myriamel/projet.git (push)
 
-stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
 $ git push --set upstream origin master
 error: src refspec origin does not match any.
 error: failed to push some refs to 'upstream'
 
-stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
 $ git push -u origin master
 Enumerating objects: 7, done.
 Counting objects: 100% (7/7), done.
 Delta compression using up to 4 threads
 Compressing objects: 100% (5/5), done.
-Writing objects: 100% (7/7), 1.14 MiB | 97.00 KiB/s, done.
+Writing objects: 100% (7/7), 1.14 MiB | 97.00 KiB/s, don
 Total 7 (delta 1), reused 0 (delta 0)
 remote: Resolving deltas: 100% (1/1), done.
 To https://github.com/myriamel/projet.git
  * [new branch]      master -> master
-Branch 'master' set up to track remote branch 'master' from 'origin'.
+Branch 'master' set up to track remote branch 'master' f
 
-stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
 $ git status
 On branch master
 Your branch is up to date with 'origin/master'.
 
 Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
+  (use "git add <file>..." to update what will be commit
+  (use "git checkout -- <file>..." to discard changes in
 
         modified:   index.php
 
-no changes added to commit (use "git add" and/or "git commit -a")
+no changes added to commit (use "git add" and/or "git co
 
-stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
 $ git add index.php
 
-stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
 $ git commit -m "commentaire"
 [master 277515e] commentaire
  1 file changed, 1 insertion(+)
 
-stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
 $ git status
 On branch master
 Your branch is ahead of 'origin/master' by 1 commit.
@@ -328,24 +328,24 @@ Your branch is ahead of 'origin/master' by 1 commit.
 
 nothing to commit, working tree clean
 
-stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
 $ git push -u origin master
 Enumerating objects: 5, done.
 Counting objects: 100% (5/5), done.
 Delta compression using up to 4 threads
 Compressing objects: 100% (2/2), done.
-Writing objects: 100% (3/3), 372 bytes | 372.00 KiB/s, done.
+Writing objects: 100% (3/3), 372 bytes | 372.00 KiB/s, d
 Total 3 (delta 0), reused 0 (delta 0)
 To https://github.com/myriamel/projet.git
    4dc5e04..277515e  master -> master
-Branch 'master' set up to track remote branch 'master' from 'origin'.
+Branch 'master' set up to track remote branch 'master' f
 
-stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
 $ git pull
 remote: Enumerating objects: 5, done.
 remote: Counting objects: 100% (5/5), done.
 remote: Compressing objects: 100% (3/3), done.
-remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reus
 Unpacking objects: 100% (3/3), done.
 From https://github.com/myriamel/projet
    277515e..65e0b89  master     -> origin/master
@@ -354,5 +354,1184 @@ Fast-forward
  index.php | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
-stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetGit (master)
-$
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git log
+commit 84127224587033fa10a0d848387072f0506e5125 (HEAD ->
+Merge: 78f2fb4 a7f95a5
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:18:19 2019 +0100
+
+    Merge branch 'master' of https://github.com/myriamel
+
+commit 78f2fb4928cb6fa86f81121b193b5b7a46ade99b
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:18:09 2019 +0100
+
+    ligneCommande
+
+commit a7f95a5d8d42f7b659fdc34ec67cd291723c32f8 (origin/
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:14:57 2019 +0100
+
+    ligneCommande
+
+commit 24f194965b55b917eebb61df0fa22e608d47d12b
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:11:24 2019 +0100
+
+    commentaire atom
+
+commit 65e0b89279844eb66682b5684b7a41850bf80bbe
+Author: myriamel <33935356+myriamel@users.noreply.github
+Date:   Thu Jan 31 11:07:23 2019 +0100
+
+    commentaire en ligne
+
+commit 277515ee5c6bd49e381ec7bb07a33b575d8a1f25
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:00:23 2019 +0100
+
+    commentaire
+
+commit 4dc5e047e5f089b7bf55520dc5a37340744b4eee
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 09:52:25 2019 +0100
+
+    j avais oublié readme
+
+commit 78e95d27b94ecc6ca65722590d91ab6348eb249c
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 09:47:27 2019 +0100
+
+    initialisation
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git branch windows
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git branch checkout windows
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git checkout windows
+Switched to branch 'windows'
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git status
+On branch windows
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be commit
+  (use "git checkout -- <file>..." to discard changes in
+
+        modified:   index.php
+
+no changes added to commit (use "git add" and/or "git co
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git add index.php
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git commit -m "modif en local "
+[windows e5b85e7] modif en local
+ 1 file changed, 2 insertions(+)
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git push -u origin windows
+Enumerating objects: 12, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 2.95 KiB | 2.95 MiB/s, done
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+remote:
+remote: Create a pull request for 'windows' on GitHub by
+remote:      https://github.com/myriamel/projet/pull/new
+remote:
+To https://github.com/myriamel/projet.git
+ * [new branch]      windows -> windows
+Branch 'windows' set up to track remote branch 'windows'
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git status
+On branch windows
+Your branch is up to date with 'origin/windows'.
+
+nothing to commit, working tree clean
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git log
+commit e5b85e7e17fdba9a113f96750779b6a4c8ece9b6 (HEAD ->
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:32:18 2019 +0100
+
+    modif en local
+
+commit 84127224587033fa10a0d848387072f0506e5125 (master,
+Merge: 78f2fb4 a7f95a5
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:18:19 2019 +0100
+
+    Merge branch 'master' of https://github.com/myriamel
+
+commit 78f2fb4928cb6fa86f81121b193b5b7a46ade99b
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:18:09 2019 +0100
+
+    ligneCommande
+
+commit a7f95a5d8d42f7b659fdc34ec67cd291723c32f8 (origin/
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:14:57 2019 +0100
+
+    ligneCommande
+
+commit 24f194965b55b917eebb61df0fa22e608d47d12b
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:11:24 2019 +0100
+
+    commentaire atom
+
+commit 65e0b89279844eb66682b5684b7a41850bf80bbe
+Author: myriamel <33935356+myriamel@users.noreply.github
+Date:   Thu Jan 31 11:07:23 2019 +0100
+
+    commentaire en ligne
+
+commit 277515ee5c6bd49e381ec7bb07a33b575d8a1f25
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:00:23 2019 +0100
+
+    commentaire
+
+commit 4dc5e047e5f089b7bf55520dc5a37340744b4eee
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 09:52:25 2019 +0100
+
+    j avais oublié readme
+
+commit 78e95d27b94ecc6ca65722590d91ab6348eb249c
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 09:47:27 2019 +0100
+
+    initialisation
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git branch
+  checkout
+  master
+* windows
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git branch -d checkout
+Deleted branch checkout (was 8412722).
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git branch
+  master
+* windows
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git branch -v
+  master  8412722 [ahead 2] Merge branch 'master' of httt
+* windows e5b85e7 modif en local
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git branch
+  master
+* windows
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git status
+On branch windows
+Your branch is up to date with 'origin/windows'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be commit
+  (use "git checkout -- <file>..." to discard changes in
+
+        modified:   index.php
+
+no changes added to commit (use "git add" and/or "git co
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git add .
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git commit -m "modif loal 13h42"
+[windows 9472559] modif loal 13h42
+ 1 file changed, 2 insertions(+)
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git add .
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git commit -m "modif loal 13h48"
+[windows 33e4b0b] modif loal 13h48
+ 1 file changed, 4 insertions(+)
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 644 bytes | 644.00 KiB/s, d
+Total 6 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 1 l
+To https://github.com/myriamel/projet.git
+   e5b85e7..33e4b0b  windows -> windows
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git add .
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git commit -m "modif loal 13h51"
+[master f824285] modif loal 13h51
+ 1 file changed, 4 insertions(+)
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git push
+To https://github.com/myriamel/projet.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/m
+hint: Updates were rejected because the remote contains
+hint: not have locally. This is usually caused by anothe
+hint: to the same ref. You may want to first integrate t
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git pull
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 10 (delta 3), reused 0 (delta 0), pack-reu
+Unpacking objects: 100% (10/10), done.
+From https://github.com/myriamel/projet
+   a7f95a5..aee528b  master     -> origin/master
+Auto-merging index.php
+CONFLICT (content): Merge conflict in index.php
+Automatic merge failed; fix conflicts and then commit th
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git pull
+error: Pulling is not possible because you have unmerged
+hint: Fix them up in the work tree, and then use 'git ad
+hint: as appropriate to mark resolution and make a commi
+fatal: Exiting because of an unresolved conflict.
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git push
+To https://github.com/myriamel/projet.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/m
+hint: Updates were rejected because the tip of your curr
+hint: its remote counterpart. Integrate the remote chang
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git pull
+error: Pulling is not possible because you have unmerged
+hint: Fix them up in the work tree, and then use 'git ad
+hint: as appropriate to mark resolution and make a commi
+fatal: Exiting because of an unresolved conflict.
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 3 and 4 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Changes to be committed:
+
+        new file:   enLigne.php
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+        both modified:   index.php
+
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git add index.php
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git commit -m "modif local 13h55"
+[master 7d9ffe4] modif local 13h55
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 625 bytes | 625.00 KiB/s, d
+Total 5 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 l
+To https://github.com/myriamel/projet.git
+   aee528b..7d9ffe4  master -> master
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git checkout windows
+Switched to branch 'windows'
+Your branch is up to date with 'origin/windows'.
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git pull
+Already up to date.
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git status
+On branch windows
+Your branch is up to date with 'origin/windows'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be commit
+  (use "git checkout -- <file>..." to discard changes in
+
+        modified:   index.php
+
+no changes added to commit (use "git add" and/or "git co
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git add index.php
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git commit -m "modif local 13h58"
+[windows 9a1137a] modif local 13h58
+ 1 file changed, 4 deletions(-)
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 299 bytes | 299.00 KiB/s, d
+Total 3 (delta 2), reused 0 (delta 0)
+To https://github.com/myriamel/projet.gitpleted with 2 l
+   33e4b0b..9a1137a  windows -> windows
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git status
+On branch windows
+Your branch is up to date with 'origin/windows'.
+
+nothing to commit, working tree clean
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git push
+Enumerating objects: 34, done.
+Counting objects: 100% (34/34), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (31/31), done.
+Writing objects: 100% (34/34), 1.15 MiB | 82.00 KiB/s, d
+Total 34 (delta 14), reused 0 (delta 0)
+remote: Resolving deltas: 100% (14/14), done.
+remote:
+remote: Create a pull request for 'windows' on GitHub by
+remote:      https://github.com/myriamel/projet/pull/new
+remote:
+To https://github.com/myriamel/projet.git
+ * [new branch]      windows -> windows
+
+stagiaire@CAANAUG401PC05 MINGW64 /c/uwamp/www/monProjetG
+$ git log
+commit 9a1137a634ad4239fb75624c4f9b4675e362b869 (HEAD ->
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:58:40 2019 +0100
+
+    modif local 13h58
+
+commit 33e4b0ba31191e3dc71ebaa53a973360bad20376
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:48:50 2019 +0100
+
+    modif loal 13h48
+
+commit 94725592ce4b8a6758a7d79dd4b4f1e6c534a42d
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:42:21 2019 +0100
+
+    modif loal 13h42
+
+commit e5b85e7e17fdba9a113f96750779b6a4c8ece9b6
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:32:18 2019 +0100
+
+    modif en local
+
+commit 84127224587033fa10a0d848387072f0506e5125
+Merge: 78f2fb4 a7f95a5
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:18:19 2019 +0100
+
+    Merge branch 'master' of https://github.com/myriamel
+
+commit 78f2fb4928cb6fa86f81121b193b5b7a46ade99b
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:18:09 2019 +0100
+
+    ligneCommande
+
+commit a7f95a5d8d42f7b659fdc34ec67cd291723c32f8
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:14:57 2019 +0100
+
+    ligneCommande
+
+commit 24f194965b55b917eebb61df0fa22e608d47d12b
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:11:24 2019 +0100
+
+    commentaire atom
+
+commit 65e0b89279844eb66682b5684b7a41850bf80bbe
+Author: myriamel <33935356+myriamel@users.noreply.github
+Date:   Thu Jan 31 11:07:23 2019 +0100
+
+    commentaire en ligne
+:...skipping...
+commit 9a1137a634ad4239fb75624c4f9b4675e362b869 (HEAD ->
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:58:40 2019 +0100
+
+    modif local 13h58
+
+commit 33e4b0ba31191e3dc71ebaa53a973360bad20376
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:48:50 2019 +0100
+
+    modif loal 13h48
+
+commit 94725592ce4b8a6758a7d79dd4b4f1e6c534a42d
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:42:21 2019 +0100
+
+    modif loal 13h42
+
+commit e5b85e7e17fdba9a113f96750779b6a4c8ece9b6
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:32:18 2019 +0100
+
+    modif en local
+
+commit 84127224587033fa10a0d848387072f0506e5125
+Merge: 78f2fb4 a7f95a5
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:18:19 2019 +0100
+
+    Merge branch 'master' of https://github.com/myriamel
+
+commit 78f2fb4928cb6fa86f81121b193b5b7a46ade99b
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:18:09 2019 +0100
+
+    ligneCommande
+
+commit a7f95a5d8d42f7b659fdc34ec67cd291723c32f8
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:14:57 2019 +0100
+
+    ligneCommande
+
+commit 24f194965b55b917eebb61df0fa22e608d47d12b
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:11:24 2019 +0100
+
+    commentaire atom
+
+commit 65e0b89279844eb66682b5684b7a41850bf80bbe
+Author: myriamel <33935356+myriamel@users.noreply.github
+Date:   Thu Jan 31 11:07:23 2019 +0100
+
+    commentaire en ligne
+
+ ESCOD
+commit 9a1137a634ad4239fb75624c4f9b4675e362b869 (HEAD ->
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:58:40 2019 +0100
+
+    modif local 13h58
+
+commit 33e4b0ba31191e3dc71ebaa53a973360bad20376
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:48:50 2019 +0100
+
+    modif loal 13h48
+
+commit 94725592ce4b8a6758a7d79dd4b4f1e6c534a42d
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:42:21 2019 +0100
+
+    modif loal 13h42
+
+commit e5b85e7e17fdba9a113f96750779b6a4c8ece9b6
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:32:18 2019 +0100
+
+    modif en local
+
+commit 84127224587033fa10a0d848387072f0506e5125
+Merge: 78f2fb4 a7f95a5
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:18:19 2019 +0100
+
+    Merge branch 'master' of https://github.com/myriamel
+
+commit 78f2fb4928cb6fa86f81121b193b5b7a46ade99b
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:18:09 2019 +0100
+
+    ligneCommande
+
+commit a7f95a5d8d42f7b659fdc34ec67cd291723c32f8
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:14:57 2019 +0100
+
+    ligneCommande
+
+commit 24f194965b55b917eebb61df0fa22e608d47d12b
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:11:24 2019 +0100
+
+    commentaire atom
+
+commit 65e0b89279844eb66682b5684b7a41850bf80bbe
+Author: myriamel <33935356+myriamel@users.noreply.github
+Date:   Thu Jan 31 11:07:23 2019 +0100
+
+    commentaire en ligne
+
+ ESCOD
+commit 9a1137a634ad4239fb75624c4f9b4675e362b869 (HEAD ->
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:58:40 2019 +0100
+
+    modif local 13h58
+
+commit 33e4b0ba31191e3dc71ebaa53a973360bad20376
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:48:50 2019 +0100
+
+    modif loal 13h48
+
+commit 94725592ce4b8a6758a7d79dd4b4f1e6c534a42d
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:42:21 2019 +0100
+
+    modif loal 13h42
+
+commit e5b85e7e17fdba9a113f96750779b6a4c8ece9b6
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:32:18 2019 +0100
+
+    modif en local
+
+commit 84127224587033fa10a0d848387072f0506e5125
+Merge: 78f2fb4 a7f95a5
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:18:19 2019 +0100
+
+    Merge branch 'master' of https://github.com/myriamel
+
+commit 78f2fb4928cb6fa86f81121b193b5b7a46ade99b
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:18:09 2019 +0100
+
+    ligneCommande
+
+commit a7f95a5d8d42f7b659fdc34ec67cd291723c32f8
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:14:57 2019 +0100
+
+    ligneCommande
+
+commit 24f194965b55b917eebb61df0fa22e608d47d12b
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:11:24 2019 +0100
+
+    commentaire atom
+
+commit 65e0b89279844eb66682b5684b7a41850bf80bbe
+Author: myriamel <33935356+myriamel@users.noreply.github
+Date:   Thu Jan 31 11:07:23 2019 +0100
+
+    commentaire en ligne
+
+ ESCOD
+commit 9a1137a634ad4239fb75624c4f9b4675e362b869 (HEAD ->
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:58:40 2019 +0100
+
+    modif local 13h58
+
+commit 33e4b0ba31191e3dc71ebaa53a973360bad20376
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:48:50 2019 +0100
+
+    modif loal 13h48
+
+commit 94725592ce4b8a6758a7d79dd4b4f1e6c534a42d
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:42:21 2019 +0100
+
+    modif loal 13h42
+
+commit e5b85e7e17fdba9a113f96750779b6a4c8ece9b6
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:32:18 2019 +0100
+
+    modif en local
+
+commit 84127224587033fa10a0d848387072f0506e5125
+Merge: 78f2fb4 a7f95a5
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:18:19 2019 +0100
+
+    Merge branch 'master' of https://github.com/myriamel
+
+commit 78f2fb4928cb6fa86f81121b193b5b7a46ade99b
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:18:09 2019 +0100
+
+    ligneCommande
+
+commit a7f95a5d8d42f7b659fdc34ec67cd291723c32f8
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:14:57 2019 +0100
+
+    ligneCommande
+
+commit 24f194965b55b917eebb61df0fa22e608d47d12b
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:11:24 2019 +0100
+
+    commentaire atom
+
+commit 65e0b89279844eb66682b5684b7a41850bf80bbe
+Author: myriamel <33935356+myriamel@users.noreply.github
+Date:   Thu Jan 31 11:07:23 2019 +0100
+
+    commentaire en ligne
+
+ ESCOD
+commit 9a1137a634ad4239fb75624c4f9b4675e362b869 (HEAD ->
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:58:40 2019 +0100
+
+    modif local 13h58
+
+commit 33e4b0ba31191e3dc71ebaa53a973360bad20376
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:48:50 2019 +0100
+
+    modif loal 13h48
+
+commit 94725592ce4b8a6758a7d79dd4b4f1e6c534a42d
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:42:21 2019 +0100
+
+    modif loal 13h42
+
+commit e5b85e7e17fdba9a113f96750779b6a4c8ece9b6
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:32:18 2019 +0100
+
+    modif en local
+
+commit 84127224587033fa10a0d848387072f0506e5125
+Merge: 78f2fb4 a7f95a5
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:18:19 2019 +0100
+
+    Merge branch 'master' of https://github.com/myriamel
+
+commit 78f2fb4928cb6fa86f81121b193b5b7a46ade99b
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:18:09 2019 +0100
+
+    ligneCommande
+
+commit a7f95a5d8d42f7b659fdc34ec67cd291723c32f8
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:14:57 2019 +0100
+
+    ligneCommande
+
+commit 24f194965b55b917eebb61df0fa22e608d47d12b
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:11:24 2019 +0100
+
+    commentaire atom
+
+commit 65e0b89279844eb66682b5684b7a41850bf80bbe
+Author: myriamel <33935356+myriamel@users.noreply.github
+Date:   Thu Jan 31 11:07:23 2019 +0100
+
+    commentaire en ligne
+
+ ESCOD
+commit 9a1137a634ad4239fb75624c4f9b4675e362b869 (HEAD ->
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:58:40 2019 +0100
+
+    modif local 13h58
+
+commit 33e4b0ba31191e3dc71ebaa53a973360bad20376
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:48:50 2019 +0100
+
+    modif loal 13h48
+
+commit 94725592ce4b8a6758a7d79dd4b4f1e6c534a42d
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:42:21 2019 +0100
+
+    modif loal 13h42
+
+commit e5b85e7e17fdba9a113f96750779b6a4c8ece9b6
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:32:18 2019 +0100
+
+    modif en local
+
+commit 84127224587033fa10a0d848387072f0506e5125
+Merge: 78f2fb4 a7f95a5
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:18:19 2019 +0100
+
+    Merge branch 'master' of https://github.com/myriamel
+
+commit 78f2fb4928cb6fa86f81121b193b5b7a46ade99b
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:18:09 2019 +0100
+
+    ligneCommande
+
+commit a7f95a5d8d42f7b659fdc34ec67cd291723c32f8
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:14:57 2019 +0100
+
+    ligneCommande
+
+commit 24f194965b55b917eebb61df0fa22e608d47d12b
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:11:24 2019 +0100
+
+    commentaire atom
+
+commit 65e0b89279844eb66682b5684b7a41850bf80bbe
+Author: myriamel <33935356+myriamel@users.noreply.github
+Date:   Thu Jan 31 11:07:23 2019 +0100
+
+    commentaire en ligne
+
+ ESCOD
+commit 9a1137a634ad4239fb75624c4f9b4675e362b869 (HEAD ->
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:58:40 2019 +0100
+
+    modif local 13h58
+
+commit 33e4b0ba31191e3dc71ebaa53a973360bad20376
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:48:50 2019 +0100
+
+    modif loal 13h48
+
+commit 94725592ce4b8a6758a7d79dd4b4f1e6c534a42d
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:42:21 2019 +0100
+
+    modif loal 13h42
+
+commit e5b85e7e17fdba9a113f96750779b6a4c8ece9b6
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:32:18 2019 +0100
+
+    modif en local
+
+commit 84127224587033fa10a0d848387072f0506e5125
+Merge: 78f2fb4 a7f95a5
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:18:19 2019 +0100
+
+    Merge branch 'master' of https://github.com/myriamel
+
+commit 78f2fb4928cb6fa86f81121b193b5b7a46ade99b
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:18:09 2019 +0100
+
+    ligneCommande
+
+commit a7f95a5d8d42f7b659fdc34ec67cd291723c32f8
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:14:57 2019 +0100
+
+    ligneCommande
+
+commit 24f194965b55b917eebb61df0fa22e608d47d12b
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:11:24 2019 +0100
+
+    commentaire atom
+
+commit 65e0b89279844eb66682b5684b7a41850bf80bbe
+Author: myriamel <33935356+myriamel@users.noreply.github
+Date:   Thu Jan 31 11:07:23 2019 +0100
+
+    commentaire en ligne
+
+ ESCOD
+commit 9a1137a634ad4239fb75624c4f9b4675e362b869 (HEAD ->
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:58:40 2019 +0100
+
+    modif local 13h58
+
+commit 33e4b0ba31191e3dc71ebaa53a973360bad20376
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:48:50 2019 +0100
+
+    modif loal 13h48
+
+commit 94725592ce4b8a6758a7d79dd4b4f1e6c534a42d
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:42:21 2019 +0100
+
+    modif loal 13h42
+
+commit e5b85e7e17fdba9a113f96750779b6a4c8ece9b6
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:32:18 2019 +0100
+
+    modif en local
+
+commit 84127224587033fa10a0d848387072f0506e5125
+Merge: 78f2fb4 a7f95a5
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:18:19 2019 +0100
+
+    Merge branch 'master' of https://github.com/myriamel
+
+commit 78f2fb4928cb6fa86f81121b193b5b7a46ade99b
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:18:09 2019 +0100
+
+    ligneCommande
+
+commit a7f95a5d8d42f7b659fdc34ec67cd291723c32f8
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:14:57 2019 +0100
+
+    ligneCommande
+
+commit 24f194965b55b917eebb61df0fa22e608d47d12b
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:11:24 2019 +0100
+
+    commentaire atom
+
+commit 65e0b89279844eb66682b5684b7a41850bf80bbe
+Author: myriamel <33935356+myriamel@users.noreply.github
+Date:   Thu Jan 31 11:07:23 2019 +0100
+
+    commentaire en ligne
+
+ ESCOD
+commit 9a1137a634ad4239fb75624c4f9b4675e362b869 (HEAD ->
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:58:40 2019 +0100
+
+    modif local 13h58
+
+commit 33e4b0ba31191e3dc71ebaa53a973360bad20376
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:48:50 2019 +0100
+
+    modif loal 13h48
+
+commit 94725592ce4b8a6758a7d79dd4b4f1e6c534a42d
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:42:21 2019 +0100
+
+    modif loal 13h42
+
+commit e5b85e7e17fdba9a113f96750779b6a4c8ece9b6
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:32:18 2019 +0100
+
+    modif en local
+
+commit 84127224587033fa10a0d848387072f0506e5125
+Merge: 78f2fb4 a7f95a5
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:18:19 2019 +0100
+
+    Merge branch 'master' of https://github.com/myriamel
+
+commit 78f2fb4928cb6fa86f81121b193b5b7a46ade99b
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:18:09 2019 +0100
+
+    ligneCommande
+
+commit a7f95a5d8d42f7b659fdc34ec67cd291723c32f8
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:14:57 2019 +0100
+
+    ligneCommande
+
+commit 24f194965b55b917eebb61df0fa22e608d47d12b
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:11:24 2019 +0100
+
+    commentaire atom
+
+commit 65e0b89279844eb66682b5684b7a41850bf80bbe
+Author: myriamel <33935356+myriamel@users.noreply.github
+Date:   Thu Jan 31 11:07:23 2019 +0100
+
+    commentaire en ligne
+
+ ESCOD
+commit 9a1137a634ad4239fb75624c4f9b4675e362b869 (HEAD ->
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:58:40 2019 +0100
+
+    modif local 13h58
+
+commit 33e4b0ba31191e3dc71ebaa53a973360bad20376
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:48:50 2019 +0100
+
+    modif loal 13h48
+
+commit 94725592ce4b8a6758a7d79dd4b4f1e6c534a42d
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:42:21 2019 +0100
+
+    modif loal 13h42
+
+commit e5b85e7e17fdba9a113f96750779b6a4c8ece9b6
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:32:18 2019 +0100
+
+    modif en local
+
+commit 84127224587033fa10a0d848387072f0506e5125
+Merge: 78f2fb4 a7f95a5
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:18:19 2019 +0100
+
+    Merge branch 'master' of https://github.com/myriamel
+
+commit 78f2fb4928cb6fa86f81121b193b5b7a46ade99b
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:18:09 2019 +0100
+
+    ligneCommande
+
+commit a7f95a5d8d42f7b659fdc34ec67cd291723c32f8
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:14:57 2019 +0100
+
+    ligneCommande
+
+commit 24f194965b55b917eebb61df0fa22e608d47d12b
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:11:24 2019 +0100
+
+    commentaire atom
+
+commit 65e0b89279844eb66682b5684b7a41850bf80bbe
+Author: myriamel <33935356+myriamel@users.noreply.github
+Date:   Thu Jan 31 11:07:23 2019 +0100
+
+    commentaire en ligne
+
+ ESCOD
+commit 9a1137a634ad4239fb75624c4f9b4675e362b869 (HEAD ->
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:58:40 2019 +0100
+
+    modif local 13h58
+
+commit 33e4b0ba31191e3dc71ebaa53a973360bad20376
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:48:50 2019 +0100
+
+    modif loal 13h48
+
+commit 94725592ce4b8a6758a7d79dd4b4f1e6c534a42d
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:42:21 2019 +0100
+
+    modif loal 13h42
+
+commit e5b85e7e17fdba9a113f96750779b6a4c8ece9b6
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:32:18 2019 +0100
+
+    modif en local
+
+commit 84127224587033fa10a0d848387072f0506e5125
+Merge: 78f2fb4 a7f95a5
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:18:19 2019 +0100
+
+    Merge branch 'master' of https://github.com/myriamel
+
+commit 78f2fb4928cb6fa86f81121b193b5b7a46ade99b
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:18:09 2019 +0100
+
+    ligneCommande
+
+commit a7f95a5d8d42f7b659fdc34ec67cd291723c32f8
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:14:57 2019 +0100
+
+    ligneCommande
+
+commit 24f194965b55b917eebb61df0fa22e608d47d12b
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:11:24 2019 +0100
+
+    commentaire atom
+
+commit 65e0b89279844eb66682b5684b7a41850bf80bbe
+Author: myriamel <33935356+myriamel@users.noreply.github
+Date:   Thu Jan 31 11:07:23 2019 +0100
+
+    commentaire en ligne
+
+ ESCOD
+commit 9a1137a634ad4239fb75624c4f9b4675e362b869 (HEAD ->
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:58:40 2019 +0100
+
+    modif local 13h58
+
+commit 33e4b0ba31191e3dc71ebaa53a973360bad20376
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:48:50 2019 +0100
+
+    modif loal 13h48
+
+commit 94725592ce4b8a6758a7d79dd4b4f1e6c534a42d
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 13:42:21 2019 +0100
+
+    modif loal 13h42
+
+commit e5b85e7e17fdba9a113f96750779b6a4c8ece9b6
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:32:18 2019 +0100
+
+    modif en local
+
+commit 84127224587033fa10a0d848387072f0506e5125
+Merge: 78f2fb4 a7f95a5
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:18:19 2019 +0100
+
+    Merge branch 'master' of https://github.com/myriamel
+
+commit 78f2fb4928cb6fa86f81121b193b5b7a46ade99b
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:18:09 2019 +0100
+
+    ligneCommande
+
+commit a7f95a5d8d42f7b659fdc34ec67cd291723c32f8
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:14:57 2019 +0100
+
+    ligneCommande
+
+commit 24f194965b55b917eebb61df0fa22e608d47d12b
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:11:24 2019 +0100
+
+    commentaire atom
+
+commit 65e0b89279844eb66682b5684b7a41850bf80bbe
+Author: myriamel <33935356+myriamel@users.noreply.github
+Date:   Thu Jan 31 11:07:23 2019 +0100
+
+    commentaire en ligne
+
+commit 277515ee5c6bd49e381ec7bb07a33b575d8a1f25
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:00:23 2019 +0100
+
+    commentaire
+
+commit 4dc5e047e5f089b7bf55520dc5a37340744b4eee
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 09:52:25 2019 +0100
+
+    j avais oublié readme
+
+commit 78e95d27b94ecc6ca65722590d91ab6348eb249c
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 09:47:27 2019 +0100
+
+    initialisation
+(END)
+
+commit e5b85e7e17fdba9a113f96750779b6a4c8ece9b6
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:32:18 2019 +0100
+
+    modif en local
+
+commit 84127224587033fa10a0d848387072f0506e5125
+Merge: 78f2fb4 a7f95a5
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:18:19 2019 +0100
+
+    Merge branch 'master' of https://github.com/myriamel/projet
+
+commit 78f2fb4928cb6fa86f81121b193b5b7a46ade99b
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:18:09 2019 +0100
+
+    ligneCommande
+
+commit a7f95a5d8d42f7b659fdc34ec67cd291723c32f8
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:14:57 2019 +0100
+
+    ligneCommande
+
+commit 24f194965b55b917eebb61df0fa22e608d47d12b
+Author: myriamel <galaxy.teos.50@gmail.com>
+Date:   Thu Jan 31 11:11:24 2019 +0100
+
+    commentaire atom
+
+commit 65e0b89279844eb66682b5684b7a41850bf80bbe
+Author: myriamel <33935356+myriamel@users.noreply.github.com>
+:
